@@ -24,6 +24,24 @@ h1:hover{
     transform: scale(1.1rem);
     border: 3px solid grey;
 }
-.warpper{
-    background-color: #fff;
+body::before {
+    content : "Welcome to My Website";
+    text-transform: uppercase;
 }
+body ul {
+    background-color: #fff;
+    width : 700px ;
+    display : flex ;
+    align-items: baseline;
+    justify-content: space-between;
+    border-radius: 50px;
+    margin : 0 ;
+    padding : 0px ;
+}
+ul li a img{
+    width : 50px ;
+    height : 50px ;
+    padding : 50px ;
+}
+   
+
